@@ -4,14 +4,15 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
 
-  <remote  name="gk"
+  <remote  name="origin"
 	   fetch="git://github.com/Global-KANGs/" />
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <default revision="gingerbread-release"
-           remote="korg" />
+ <default  remote="korg"
+	   revision="gingerbread-release"
+	    />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -24,7 +25,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gk" revision="gingerbread"/>
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="origin" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
@@ -193,7 +194,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="gk" revision="gingerbread"/>
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="origin" revision="gingerbread"/>
   <project path="manifest" name="manifest" remote="origin" revision="master"/>
 
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
