@@ -1,10 +1,16 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="master"
+
+  <remote  name="gk"
+	   fetch="git://github.com/Global-KANGs/" />
+
+  <remote  name="rk"
+	   fetch="git://github.com/ROM-Kangs/" />
+
+  <default revision="gingerbread-release"
            remote="korg" />
 
   <project path="build" name="platform/build">
@@ -18,15 +24,8 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gk" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/astl" name="platform/external/astl" />
@@ -193,6 +192,9 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="gk" revision="gingerbread"/>
+  <project path="manifest" name="manifest" remote="origin" revision="master"/>
 
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
 
