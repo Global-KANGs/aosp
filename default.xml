@@ -185,6 +185,4 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="origin" revision="gingerbread"/>
   <project path="manifest" name="aosp" remote="origin" revision="master"/>
 
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" />
-
 </manifest>
