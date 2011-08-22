@@ -17,7 +17,7 @@
 	   revision="gingerbread-release"
 	    />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="platform/build" remote="cheat" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
