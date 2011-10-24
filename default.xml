@@ -175,6 +175,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="bionic" name="OMFGB/bionic" remote="github" revision="master"/>
+  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="gingerbread"/>
   <project path="external/bash" name="OMFGB/external_bash" remote="github" revision="master"/>
   <project path="external/busybox" name="OMFGB/external_busybox" remote="github" revision="master"/>
