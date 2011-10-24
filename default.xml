@@ -180,7 +180,7 @@
   <project path="external/busybox" name="OMFGB/external_busybox" remote="github" revision="master"/>
   <project path="external/libncurses" name="OMFGB/external_libncurses" remote="github" revision="master"/>
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread"/>
-  <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="master"/>
+  <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="gingerbread"/>
   <project path="vendor/blackspark" name="Global-KANGs/vendor_blackspark" remote="github" revision="master"/>
   <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread"/>
   <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="master"/>
