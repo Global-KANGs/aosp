@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="gcode"
+  <remote  name="gsource"
            fetch="https://android.googlesource.com/"/>
 
-  <remote  name="origin"
-	   fetch="git://github.com/Global-KANGs/" />
+  <remote  name="github"
+           fetch="git://github.com/" />
 
-  <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/" />
-
-  <remote  name="cheat"
-	   fetch="git://github.com/OMFGB/" />
-
- <default  remote="gcode"
+ <default  remote="gsource"
 	   revision="gingerbread"
 	    />
 
-  <project path="build" name="build" remote="cheat" revision="master">
+  <project path="build" name="OMFGB/build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="bionic" remote="cheat" revision="master"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -27,11 +20,9 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="origin" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="external_bash" remote="cheat" revision="master"/>
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -39,7 +30,6 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="external_busybox" remote="cheat" revision="master"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
@@ -75,7 +65,6 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libncurses" name="external_libncurses" remote="cheat" revision="master"/>
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
@@ -93,7 +82,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
@@ -179,15 +168,21 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="system_core" remote="cheat" revision="master"/>
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
-  <project path="vendor/blackspark" name="vendor_blackspark" remote="origin" revision="master"/>
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="origin" revision="gingerbread"/>
-  <project path="manifest" name="aosp" remote="origin" revision="master"/>
+
+  <project path="bionic" name="OMFGB/bionic" remote="github" revision="master"/>
+  <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="gingerbread"/>
+  <project path="external/bash" name="OMFGB/external_bash" remote="github" revision="master"/>
+  <project path="external/busybox" name="OMFGB/external_busybox" remote="github" revision="master"/>
+  <project path="external/libncurses" name="OMFGB/external_libncurses" remote="github" revision="master"/>
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread"/>
+  <project path="system/core" name="Hashcode/system_core" remote="github" revision="master"/>
+  <project path="vendor/blackspark" name="Global-KANGs/vendor_blackspark" remote="github" revision="master"/>
+  <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread"/>
+  <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="master"/>
 
 </manifest>
