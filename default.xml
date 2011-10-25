@@ -7,7 +7,7 @@
            fetch="git://github.com/" />
 
  <default  remote="gsource"
-	   revision="gingerbread-release"
+	   revision="gingerbread"
 	    />
 
   <project path="build" name="OMFGB/build" remote="github" revision="master">
@@ -116,7 +116,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
