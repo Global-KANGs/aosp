@@ -35,7 +35,6 @@
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
@@ -179,6 +178,7 @@
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="gingerbread"/>
   <project path="external/bash" name="OMFGB/external_bash" remote="github" revision="master"/>
   <project path="external/busybox" name="OMFGB/external_busybox" remote="github" revision="master"/>
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" revision="gingerbread" />
   <project path="external/libncurses" name="OMFGB/external_libncurses" remote="github" revision="master"/>
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread"/>
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="gingerbread"/>
