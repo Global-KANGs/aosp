@@ -7,3 +7,16 @@ Credits:
 Google
 bikedude880
 cvpcs (for all his work on Moto devices)
+RevNumbers and x13thangelx for their continued work on the D2 Global
+
+-= Building From Source =-
+1) You should have a build environment set up (http://source.android.com/source/initializing.html) before doing anything else.
+2) After that, follow "Installing Repo" from http://source.android.com/source/downloading.html
+3) repo init -u git://github.com/Global-KANGs/aosp
+4) cp vendor/blackspark/cleanup.sh /path/to/aosp/dir/
+5) ./cleanup.sh
+6) . build/envsetup.sh
+7) choosecombo 1 1 generic_droid2we userdebug
+8) make otapackage
+
+Installable zip will be output in out/target/product/droid2we/generic_droid2we_.zip
