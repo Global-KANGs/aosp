@@ -175,15 +175,17 @@
 
   <project path="bionic" name="OMFGB/bionic" remote="github" revision="master"/>
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" remote="github" />
-  <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="gingerbread"/>
-  <project path="external/bash" name="OMFGB/external_bash" remote="github" revision="master"/>
-  <project path="external/busybox" name="OMFGB/external_busybox" remote="github" revision="master"/>
+  <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="gingerbread" />
+  <project path="external/bash" name="OMFGB/external_bash" remote="github" revision="master" />
+  <project path="external/busybox" name="OMFGB/external_busybox" remote="github" revision="master" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="gingerbread" />
-  <project path="external/libncurses" name="OMFGB/external_libncurses" remote="github" revision="master"/>
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread"/>
-  <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="gingerbread"/>
-  <project path="vendor/blackspark" name="Global-KANGs/vendor_blackspark" remote="github" revision="master"/>
-  <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread"/>
-  <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="master"/>
+  <project path="external/libncurses" name="OMFGB/external_libncurses" remote="github" revision="master" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread" />
+  <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="gingerbread" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="gingerbread" />
+  <project path="vendor/blackspark" name="Global-KANGs/vendor_blackspark" remote="github" revision="master" />
+  <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
+
+  <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="master" />
 
 </manifest>
