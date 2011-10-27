@@ -10,7 +10,7 @@
 	   revision="gingerbread-release"
 	    />
 
-  <project path="build" name="Global-KANGs/build" remote="github" revision="master">
+  <project path="build" name="CyanogenMod/android_build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
