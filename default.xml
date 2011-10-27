@@ -10,9 +10,10 @@
 	   revision="gingerbread-release"
 	    />
 
-  <project path="build" name="OMFGB/build" remote="github" revision="master">
+  <project path="build" name="Global-KANGs/build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -173,7 +174,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="bionic" name="OMFGB/bionic" remote="github" revision="master"/>
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" remote="github" />
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="gingerbread" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="gingerbread" />
