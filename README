@@ -2,12 +2,14 @@
 
 This is pre-alpha software.  Do not build and run this yet. (8/21/2011)
 Updated 10/23/2011 to reflect google git.
+Updated 11/20/2011 for ICS test build.
 
 Credits:
 Google
 bikedude880
 cvpcs (for all his work on Moto devices)
 RevNumbers and x13thangelx for their continued work on the D2 Global
+CyanogenMod for providing such well supported projects
 
 -= Building From Source =-
 1) You should have a build environment set up (http://source.android.com/source/initializing.html) before doing anything else.
