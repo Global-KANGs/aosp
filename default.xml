@@ -225,7 +225,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="ics" />
-  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" remote="github" />
+  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" remote="github" revision="gingerbread" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="gingerbread" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="gingerbread" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="gingerbread" />
