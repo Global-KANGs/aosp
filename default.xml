@@ -158,6 +158,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -223,6 +224,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
+  <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="gingerbread" />
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="ics" />
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" remote="github" revision="gingerbread" />
