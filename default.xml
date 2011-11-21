@@ -233,7 +233,7 @@
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="gingerbread" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread" />
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" remote="github" revision="gingerbread" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="gingerbread" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
   
   <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
 
