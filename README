@@ -14,7 +14,7 @@ CyanogenMod for providing such well supported projects
 -= Building From Source =-
 1) You should have a build environment set up (http://source.android.com/source/initializing.html) before doing anything else.
 2) After that, follow "Installing Repo" from http://source.android.com/source/downloading.html
-3) repo init -u git://github.com/Global-KANGs/aosp
+3) repo init -u git://github.com/Global-KANGs/aosp -b ics
 4) cp vendor/blackspark/cleanup.sh /path/to/aosp/dir/
 5) ./cleanup.sh
 6) . build/envsetup.sh
