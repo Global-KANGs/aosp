@@ -228,13 +228,13 @@
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="ics" />
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" remote="github" revision="gingerbread" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="ics" />
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" remote="github" revision="gingerbread" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
   
   <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
 
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="ics" />
-  <project path="vendor/blackspark" name="Global-KANGs/vendor_blackspark" remote="github" revision="master" />
   <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="ics" />
 
 </manifest>
