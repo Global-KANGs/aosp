@@ -136,7 +136,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -219,7 +218,6 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -233,10 +231,12 @@
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="gingerbread" />
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" remote="github" revision="gingerbread" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
-  
-  <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="ics" />
+
+  <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />
+  <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
 
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="ics" />
+  <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="ics" />
   <project path="manifest" name="Global-KANGs/aosp" remote="github" revision="ics" />
 
 </manifest>
