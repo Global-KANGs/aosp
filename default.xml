@@ -249,8 +249,8 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-  <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="ics" />
-  <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="ics" />
+  <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="cm9" />
+  <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
-  <project path="android" name="Global-KANGs/aosp" remote="github" revision="ics" />
+  <project path="android" name="Global-KANGs/aosp" remote="github" revision="cm9" />
 </manifest>
