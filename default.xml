@@ -248,7 +248,11 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
+  <project path="device/motorola/common" name="MotoMagic/android_device_motorola_common" remote="github" />
+
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="cm9" />
+  <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="cm9" />
+
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" remote="github" revision="ics" />
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
 
