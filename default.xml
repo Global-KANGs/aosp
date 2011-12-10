@@ -250,7 +250,7 @@
   <project path="device/motorola/common" name="MotoMagic/android_device_motorola_common" remote="github" />
 
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="cm9" />
-  <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
+  <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
   <project path="system/core" name="Hashcode/android_system_core" remote="github" revision="ics" />
 
