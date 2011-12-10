@@ -1,6 +1,6 @@
--= Stock AOSP manifest =-
+-= CM9 Pre-Alpha Manifest =-
 
-This is pre-alpha software.  Do not build and run this yet. (8/21/2011)
+This is pre-alpha software.  Do not build and run this yet. (12/10/2011)
 Updated 10/23/2011 to reflect google git.
 Updated 11/20/2011 for ICS test build.
 Updated 12/1/2011 for pre-CM9
@@ -12,6 +12,7 @@ cvpcs (for all his work on Moto devices)
 RevNumbers and x13thangelx for their continued work on the D2 Global
 CyanogenMod for providing such well supported projects
 HashCode for being my tech support
+MotoMagic for putting up with my bullshit
 
 -= Building From Source =-
 1) You should have a build environment set up (http://source.android.com/source/initializing.html) before doing anything else.
