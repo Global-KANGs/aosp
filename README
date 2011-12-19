@@ -4,6 +4,7 @@ This is pre-alpha software.  Do not build and run this yet. (12/10/2011)
 Updated 10/23/2011 to reflect google git.
 Updated 11/20/2011 for ICS test build.
 Updated 12/1/2011 for pre-CM9
+Updated 12/18/2011 for 4.0.3 changes
 
 Credits:
 Google
@@ -18,9 +19,8 @@ MotoMagic for putting up with my bullshit
 1) You should have a build environment set up (http://source.android.com/source/initializing.html) before doing anything else.
 2) After that, follow "Installing Repo" from http://source.android.com/source/downloading.html
 3) repo init -u git://github.com/Global-KANGs/aosp -b cm9
-4) ./cleanup.sh
-5) . build/envsetup.sh
-6) choosecombo 1 1 generic_droid2we eng
-7) make otapackage
+4) . build/envsetup.sh
+5) lunch cm_droid2we-eng
+6) make otapackage
 
-Installable zip will be output in out/target/product/droid2we/generic_droid2we_.zip
+Installable zip will be output in out/target/product/droid2we/cm_droid2we-ota-<userdebug/eng>.<username>.zip
