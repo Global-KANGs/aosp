@@ -252,6 +252,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="github" />
+  <project path="packages/apps/Usb" name="MotoMagic/android_packages_apps_Usb" remote="github" revision="ics" />
 
   <project path="device/motorola/droid2we" name="Global-KANGs/android_device_motorola_droid2we" remote="github" revision="cm9" />
   <project path="vendor/motorola" name="Global-KANGs/proprietary_vendor_motorola" remote="github" revision="cm9" />
